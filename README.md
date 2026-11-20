@@ -2,6 +2,10 @@
 
 Atividade prática da aula **Banco de Dados NoSQL**: aplicação em **Node.js** com menu no terminal para criar, ler, atualizar e excluir alunos em um banco **Cloud Firestore**, além de consultas por turma e por data de nascimento.
 
+**Repositório:** <https://github.com/afonsomiguel700/crud-alunos-firestore>  
+**Projeto Firebase:** `crud-alunos-nosql` · **Coleção:** `alunos`  
+**Capturas de tela:** pasta [`capturas/`](capturas/)
+
 ## 1. O que o projeto faz
 
 A coleção `alunos` segue exatamente a estrutura da aula:
@@ -138,23 +142,23 @@ Confira o `git status` antes do commit: se `serviceAccountKey.json` aparecer, pa
 
 ## 7. Entrega (Google Sala de Aula)
 
-Envie:
+**Link para enviar:** <https://github.com/afonsomiguel700/crud-alunos-firestore>
 
-1. O **link do repositório no GitHub**.
-2. Capturas de tela demonstrando o funcionamento. Sugestão:
+As capturas já estão na pasta [`capturas/`](capturas/) e também podem ser anexadas individualmente:
 
-| Captura | O que mostrar |
+| Captura | O que mostra |
 | --- | --- |
-| `01-menu.png` | Menu principal com todas as opções |
-| `02-criar.png` | Cadastro de um aluno e mensagem com o ID gerado |
-| `03-listar.png` | Lista de alunos (rodou `npm run seed`) |
-| `04-atualizar.png` | Antes e depois da atualização de um aluno |
-| `05-excluir.png` | Confirmação e exclusão |
-| `06-turma.png` | Consulta por turma |
-| `07-nascimento.png` | Consulta por data e por período |
-| `08-firestore.png` | Console do Firestore com a coleção `alunos` (opcional) |
+| `01-menu-e-listagem.jpg` | Menu principal e listagem dos 8 alunos fictícios |
+| `02-consulta-por-turma.jpg` | Consulta por turma (`3DSB`) |
+| `03-consulta-por-data.jpg` | Consulta por data de nascimento (`2009-05-15`) |
+| `04-consulta-por-periodo.jpg` | Consulta por período (`2009-01-01` a `2009-12-31`) |
+| `05-firestore-colecao.jpg` | Console do Firestore com a coleção `alunos` |
+| `06-github-repositorio.jpg` | Repositório publicado no GitHub |
+| `07-criar.jpg` | Cadastro e ID do documento gerado |
+| `08-atualizar.jpg` | Alteração de dados e confirmação |
+| `09-excluir.jpg` | Confirmação e exclusão do aluno de teste |
 
-Dica: o menu permanece na tela após cada operação — tire a foto antes de pressionar ENTER para voltar ao menu.
+No Google Sala de Aula, cole o link do repositório e anexe as imagens desejadas.
 
 ## 8. Problemas comuns
 
