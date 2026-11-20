@@ -1,0 +1,17 @@
+{
+  "name": "crud-firestore-alunos",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CRUD de alunos com Firebase Cloud Firestore - Atividade de Banco de Dados NoSQL",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.4.0"
+  }
+}

@@ -1,0 +1,10 @@
+# Nunca publique a chave de conta de serviço do Firebase
+serviceAccountKey.json
+serviceAccount*.json
+
+# Dependencias e arquivos locais
+node_modules/
+.env
+npm-debug.log*
+*.log
+.DS_Store
